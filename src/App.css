@@ -1,0 +1,126 @@
+/* Reset and base */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  background: black;
+  color: white;
+}
+
+/* Wrapper to center everything */
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Game container per mode background */
+.game-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  animation: fadeIn 0.7s ease-in;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Gradient backgrounds */
+.game-container.easy {
+  background: linear-gradient(135deg, #0b1b2e, #1a3c59);
+}
+
+.game-container.normal {
+  background: linear-gradient(135deg, #2e0b3d, #43256e);
+}
+
+.game-container.hard {
+  background: linear-gradient(135deg, #3d0b0b, #5a1a1a);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu button,
+.back-button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, #6e48aa, #9d50bb);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu button:hover,
+.back-button:hover {
+  transform: scale(1.05);
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.timer,
+.score {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+/* Card Grid */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Cards */
+.card {
+  width: 60px;
+  height: 80px;
+  background-color: #222;
+  border-radius: 10px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card.flipped {
+  background-color: gold;
+  transform: rotateY(180deg) scale(1.05);
+}
+
+/* Win/Lose Message */
+.completion-message {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: lightgreen;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
