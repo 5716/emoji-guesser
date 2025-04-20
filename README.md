@@ -14,8 +14,6 @@ In **Emoji Guesser**, you will:
 - **Normal**: 16 cards, 45 seconds.
 - **Hard**: 16 cards, 30 seconds.
 
-Complete the game, and you’ll see a **confetti effect**! Celebrate your win and keep trying to beat your best score.
-
 ## 🚀 **Features**:
 - **Responsive design**: The game adjusts to different screen sizes, so you can play on any device.
 - **Smooth animations**: Includes smooth transitions and flip effects for card matching.
@@ -27,9 +25,8 @@ Complete the game, and you’ll see a **confetti effect**! Celebrate your win an
 - **CSS**: Custom styling.
 - **Confetti Library**: For a celebratory confetti animation.
 
-## 🔑 **How to Play**:
-1. Click the **Play** button to start the game.
-2. Choose your **game mode**: Easy, Normal, or Hard.
-3. Flip the cards to find matching emoji pairs.
-4. Once you match all pairs before time runs out, **Congratulations!** 🎉
-5. If time runs out, it's **Game Over**. Try again to beat your best score!
+![Image](https://github.com/user-attachments/assets/f35d13dc-72d7-45f3-80a8-076da7adef94)
+
+![Image](https://github.com/user-attachments/assets/807c7cf1-f051-4294-8429-97472f516f87)
+
+![Image](https://github.com/user-attachments/assets/8ea7e0ee-76f0-4a0a-a4c4-f6b1e274dd67)
